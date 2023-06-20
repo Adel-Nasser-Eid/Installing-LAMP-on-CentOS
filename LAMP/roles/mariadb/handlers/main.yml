@@ -1,0 +1,8 @@
+---
+- name: dnf_clean
+  command:
+    dnf clean all
+- name: firewalld_reload
+  command:
+    firewall-cmd --reload
+
